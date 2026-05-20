@@ -8,7 +8,7 @@ Personal cybersecurity portfolio: bio, certificates, and a Medium-style CTF blog
 
 | Page | Description |
 |------|-------------|
-| **About** | Name, title, links (GitHub, LinkedIn, email) |
+| **About** | Name, title, links (GitHub, LinkedIn) |
 | **Certificates** | Showcase certs (JSON file) |
 | **CTF Blog** | List, read, **create, edit, delete** posts (PostgreSQL) |
 
@@ -36,10 +36,6 @@ npm run db:up
 ### 2. Environment
 
 Copy `.env.example` to `.env` in the project root:
-
-```env
-DATABASE_URL=postgresql://biocyber:biocyber@localhost:5432/biocyber
-```
 
 ### 3. Run app
 
@@ -83,12 +79,6 @@ Render sets `DATABASE_SSL=true` automatically for managed Postgres.
 - `server/data/profile.json`
 - `server/data/certificates.json`
 - `server/data/posts.json` — seed data only (not used after DB is seeded)
-
-## Assignment checklist (30%)
-
-- [ ] Live URL (Render)
-- [ ] GitHub repo (invite wichit2s)
-- [ ] PDF: site screenshots, green GitHub Actions, Render **Live**, features + deployment notes
 
 ## Project structure
 
