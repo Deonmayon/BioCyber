@@ -1,0 +1,26 @@
+[
+  {
+    "id": "comptia-security-plus",
+    "name": "CompTIA Security+",
+    "issuer": "CompTIA",
+    "year": "2025",
+    "credentialUrl": "https://www.comptia.org/certifications/security",
+    "badgeColor": "emerald"
+  },
+  {
+    "id": "google-cybersecurity",
+    "name": "Google Cybersecurity Certificate",
+    "issuer": "Google / Coursera",
+    "year": "2024",
+    "credentialUrl": "https://www.coursera.org/professional-certificates/google-cybersecurity",
+    "badgeColor": "cyan"
+  },
+  {
+    "id": "tryhackme-path",
+    "name": "TryHackMe — Complete Beginner",
+    "issuer": "TryHackMe",
+    "year": "2024",
+    "credentialUrl": "https://tryhackme.com/",
+    "badgeColor": "violet"
+  }
+]

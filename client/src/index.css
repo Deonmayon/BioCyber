@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Segoe UI", system-ui, sans-serif;
+  --font-mono: "Cascadia Code", "Fira Code", ui-monospace, monospace;
+}
+
+body {
+  @apply min-h-screen bg-white text-slate-800 antialiased;
+}
+
+.prose h2 {
+  @apply mt-8 mb-3 text-xl font-semibold text-blue-700;
+}
+
+.prose p {
+  @apply mb-4 leading-relaxed text-slate-600;
+}
+
+.prose pre {
+  @apply my-4 overflow-x-auto rounded-lg border border-blue-100 bg-blue-50 p-4 text-sm text-slate-800;
+}
+
+.prose code {
+  @apply font-mono text-blue-700;
+}
